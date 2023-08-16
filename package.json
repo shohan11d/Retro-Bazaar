@@ -1,0 +1,20 @@
+{
+  "name": "parcel-static-site-starterkit-main",
+  "version": "1.0.0",
+  "description": "![Built With Parcel](https://img.shields.io/badge/Built%20With-Parcel-yellow?style=for-the-badge)",
+  "main": "index.js",
+  "scripts": {
+    "reset": "rimraf dist && rimraf .cache",
+    "start": "rimraf dist && parcel src/index.html",
+    "build": "rimraf dist && parcel build src/index.html --public-url /"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "parcel-bundler": "^1.12.4",
+    "postcss-modules": "^4.3.1",
+    "rimraf": "^3.0.2",
+    "sass": "^1.54.1"
+  }
+}

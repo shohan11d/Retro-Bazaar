@@ -1,0 +1,63 @@
+:root {
+  //=====================================================================
+  //---------------------------------- Font Size
+  //=====================================================================
+  /* Step -2: 10.13px → 7.64px */
+  --step--2: clamp(0.48rem, calc(0.69rem + -0.27vw), 0.63rem);
+
+  /* Step -1: 13.50px → 12.36px */
+  --step--1: clamp(0.77rem, calc(0.87rem + -0.12vw), 0.84rem);
+
+  /* Step 0: 18.00px → 20.00px */
+  --step-0: clamp(1.13rem, calc(1.08rem + 0.22vw), 1.25rem);
+
+  /* Step 1: 24.99px → 40.36px */
+  --step-1: clamp(1.5rem, calc(1.36rem + 0.93vw), 2.5rem);
+
+  /* Step 2: 31.98px → 52.36px */
+  --step-2: clamp(2rem, calc(1.56rem + 2.22vw), 3.27rem);
+
+  /* Step 3: 42.63px → 84.72px */
+  --step-3: clamp(2.66rem, calc(1.75rem + 4.58vw), 5.3rem);
+
+  /* Step 4: 56.83px → 137.07px */
+  --step-4: clamp(3.55rem, calc(1.81rem + 8.72vw), 8.57rem);
+  // Fonts used
+
+  /* Step 5: 75.76px → 221.78px */
+  //=====================================================================================
+  //---------------------------------- Spacing
+  //=====================================================================================
+  /* Space s: 25px → 50px */
+  --space-s: clamp(1.56rem, calc(1.12rem + 2.23vw), 3.13rem);
+
+  /* Space m: 38px → 75px */
+  --space-m: clamp(2.38rem, calc(1.71rem + 3.3vw), 4.69rem);
+
+  /* Space l: 50px → 100px */
+  --space-l: clamp(3.13rem, calc(2.23rem + 4.46vw), 6.25rem);
+
+  /* Space xl: 75px → 150px */
+  --space-xl: clamp(4.69rem, calc(3.35rem + 6.7vw), 9.38rem);
+
+  /* Space 2xl: 100px → 200px */
+  --space-2xl: clamp(6.25rem, calc(4.46rem + 8.93vw), 12.5rem);
+
+  /* Space 3xl: 125px → 250px */
+  --space-3xl: clamp(7.81rem, calc(5.58rem + 11.16vw), 15.63rem);
+
+  /* Space 4xl: 150px → 300px */
+  --space-4xl: clamp(9.38rem, calc(6.7rem + 13.39vw), 18.75rem);
+
+  /* Space 5xl: 175px → 350px */
+  --space-5xl: clamp(10.94rem, calc(7.81rem + 15.63vw), 21.88rem);
+
+  /* Space 6xl: 200px → 400px */
+  --space-6xl: clamp(12.5rem, calc(8.93rem + 17.86vw), 25rem);
+
+  /* Space 7xl: 225px → 450px */
+  --space-7xl: clamp(14.06rem, calc(10.04rem + 20.09vw), 28.13rem);
+
+  /* Space 8xl: 250px → 500px */
+  --space-8xl: clamp(15.63rem, calc(11.16rem + 22.32vw), 31.25rem);
+}

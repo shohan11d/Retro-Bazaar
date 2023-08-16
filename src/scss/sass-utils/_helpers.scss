@@ -1,0 +1,72 @@
+//=====================================================================
+//---------------------------------- Custom nav animation
+//=====================================================================
+.custom-nav-animation {
+  background-image: linear-gradient(to right, #54b3d6, #54b3d6 50%, #000 50%);
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-nav-animation:before {
+  content: "";
+  background: #54b3d6;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-nav-animation:hover {
+  background-position: 0;
+}
+
+.custom-nav-animation:hover::before {
+  width: 100%;
+}
+//=====================================================================
+//---------------------------------- center element
+//=====================================================================
+
+.custom-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+//-------------------------------------------------------------------------------------------------------------
+.header-p {
+  font-size: var(--step-4);
+  line-height: 0.9;
+  margin-bottom: 3.125rem;
+}
+.header-s {
+  font-size: var(--step-2);
+
+  margin-bottom: 2.2rem;
+}
+.normal-text {
+}
+.custom-btn {
+  background-color: var(--color-primary);
+  border: none;
+  color: var(--color-secondary);
+  padding: 1rem 2.2rem;
+}
+.custom-btn:hover {
+  background-color: var(--color-primary);
+  border: none;
+  color: #3f3f46;
+}
+
+.text-white-clr {
+  color: var(--color-secondary);
+}

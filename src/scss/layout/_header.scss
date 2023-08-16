@@ -1,0 +1,39 @@
+.header {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(/public/img/banner/bg-banner.jpg);
+
+  &__box {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-m-l);
+
+    max-width: 540px;
+    padding-top: var(--space-xl);
+    padding-bottom: var(--space-l);
+    margin-bottom: 2rem;
+  }
+  &__primary {
+    transform: rotate(-3deg);
+  }
+  &__text {
+    font-family: var(--font-secondary);
+    margin-bottom: 3.125rem;
+    text-align: center;
+    max-width: 52ch;
+  }
+  &__content {
+  }
+  &__content {
+  }
+}
+
+// Small image fix

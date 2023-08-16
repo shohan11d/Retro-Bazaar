@@ -1,0 +1,18 @@
+.about {
+  text-align: center;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-image: url(/public/img/about/bg-about.png);
+  margin-top: -155px;
+
+  z-index: -1;
+  &__wrapper {
+    padding-top: var(--space-5xl);
+    padding-bottom: var(--space-4xl);
+  }
+  &__text {
+    max-width: 62ch;
+    display: inline-block;
+  }
+}

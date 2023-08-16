@@ -1,0 +1,21 @@
+body {
+  color: var(--color-primary);
+  font-family: "Viga", sans-serif;
+  line-height: 1.4;
+  max-width: 1440px;
+
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-color: #4158d0;
+  border: 2px solid #b94b6b;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+}
+
+p {
+  font-family: var(--font-secondary);
+}

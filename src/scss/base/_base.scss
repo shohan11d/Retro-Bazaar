@@ -5,6 +5,7 @@ body {
   max-width: 1440px;
 
   margin: 0 auto;
+
   background-repeat: no-repeat;
   background-color: #4158d0;
   border: 2px solid #b94b6b;
@@ -18,4 +19,12 @@ body {
 
 p {
   font-family: var(--font-secondary);
+}
+
+*:focus {
+  outline: 4px dashed #4158d0;
+}
+
+html {
+  scroll-behavior: smooth;
 }

@@ -1,0 +1,36 @@
+.stores {
+  background-color: #fbf1d9;
+  padding-top: var(--space-2xl);
+  position: relative;
+  z-index: -10;
+  margin-top: -15px;
+  overflow: hidden;
+
+  // &__electricity1 {
+  //   position: absolute;
+  //   top: 70%;
+  //   left: -5%;
+  //   width: 15vw;
+
+  //   transform: rotate(120deg);
+  // }
+  // &__electricity2 {
+  //   position: absolute;
+  // }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+  }
+  &__img {
+    max-width: 17.9375rem;
+    max-height: 290px;
+  }
+  &__text {
+    max-width: 27ch;
+    text-align: justify;
+  }
+}

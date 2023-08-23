@@ -1,8 +1,14 @@
 .header {
-  background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 4.5rem;
   background-image: url(/public/img/banner/bg-banner.jpg);
+  @media (max-width: 600px) {
+    position: relative;
+    z-index: 10;
+    padding-bottom: 0;
+  }
 
   &__box {
     display: flex;
@@ -16,23 +22,16 @@
     align-items: center;
     gap: var(--space-m-l);
 
-    max-width: 540px;
     padding-top: var(--space-xl);
     padding-bottom: var(--space-l);
     margin-bottom: 2rem;
   }
-  &__primary {
-    transform: rotate(-3deg);
-  }
+
   &__text {
     font-family: var(--font-secondary);
     margin-bottom: 3.125rem;
     text-align: center;
     max-width: 52ch;
-  }
-  &__content {
-  }
-  &__content {
   }
 }
 

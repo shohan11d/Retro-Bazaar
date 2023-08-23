@@ -1,0 +1,46 @@
+.what {
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-image: url(/public/img/what/bg-what.jpg);
+  margin-top: -2px;
+  text-align: center;
+  padding: var(--space-l) 0;
+  z-index: 10;
+  position: relative;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__img-container {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    gap: 12.5rem;
+    margin-top: 3rem;
+
+    @media (max-width: 775px) {
+      gap: 5rem;
+      flex-direction: column;
+    }
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__img {
+    max-width: 16.875rem;
+    max-height: 19.0625rem;
+    margin-bottom: 2rem;
+    object-fit: contain;
+  }
+  &__text {
+    width: 30ch;
+    text-align: justify;
+  }
+}

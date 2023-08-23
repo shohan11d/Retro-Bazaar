@@ -44,14 +44,19 @@
 
 //-------------------------------------------------------------------------------------------------------------
 .header-p {
-  font-size: var(--step-4);
+  font-size: var(--fs-header-p);
   line-height: 0.9;
   margin-bottom: 3.125rem;
+  text-transform: uppercase;
 }
 .header-s {
   font-size: var(--step-2);
 
   margin-bottom: 2.2rem;
+}
+.header-t {
+  font-size: var(--step-1);
+  text-transform: uppercase;
 }
 .normal-text {
 }
@@ -61,12 +66,21 @@
   color: var(--color-secondary);
   padding: 1rem 2.2rem;
 }
-.custom-btn:hover {
-  background-color: var(--color-primary);
+.custom-btn2 {
+  background-color: var(--color-secondary);
+  border: none;
+  color: var(--color-primary);
+  padding: 1rem 2.2rem;
+}
+.custom-btn:hover,
+.custom-btn2:hover {
   border: none;
   color: #3f3f46;
 }
 
 .text-white-clr {
   color: var(--color-secondary);
+}
+.header-rotate {
+  transform: rotate(-3deg);
 }
